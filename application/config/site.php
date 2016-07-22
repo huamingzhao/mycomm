@@ -3,10 +3,10 @@
 return array(
         'website' => '/',
         'webstatic' => 'http://static.myczzs.com/',
-        'webcss' => 'http://static.myczzs.com/css/',
+        'webcss' => '/css/',
         'webjs'  => 'http://static.myczzs.com/js/',
         'websapi'  => 'http://static.myczzs.com/sapi',
-		'imgurl'  => 'http://pic.yijuhua-alpha.net/',
+		'imgurl'  => '/images/',
 		'sitemap'  => '/trunk/',  
 		'webwen' => 'http://wen.myczzs.com/' ,
 		'siteMovie' => 'http://yijuhua.qiniudn.com/'
