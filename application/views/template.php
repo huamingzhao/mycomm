@@ -27,12 +27,11 @@
                     </div>
                     <div class="navbar-collapse collapse ">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="courses.html">Courses</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li class="active"><a href="index.html">首页</a></li>
+                            <li><a href="portfolio.html">公司介绍</a></li>
+                            <li><a href="pricing.html">产品介绍</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
                         </ul>
                     </div>
                 </div>
