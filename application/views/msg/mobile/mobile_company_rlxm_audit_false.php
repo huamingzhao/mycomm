@@ -1,1 +1,0 @@
-您在一句话网站平台认领的<?php echo $pname?>项目未能通过审核。原因是<?php echo $des?>。建议您登录www.yjh.com查看详情。【一句话】
