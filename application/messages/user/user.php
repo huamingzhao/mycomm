@@ -17,10 +17,4 @@ return array(
         'valid_code'=>array(
                 'not_empty' => '验证码不能为空',
         ),
-        /*
-        '_external'=> array(
-                'password'=>'密码不能为空',
-                'confirm' => '两次输入密码不一致',
-        )
-        */
 );
