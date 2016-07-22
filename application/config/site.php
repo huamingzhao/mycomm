@@ -1,7 +1,7 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
 return array(
-        'website' => 'http://www.myczzs.com/',
+        'website' => '/',
         'webstatic' => 'http://static.myczzs.com/',
         'webcss' => 'http://static.myczzs.com/css/',
         'webjs'  => 'http://static.myczzs.com/js/',

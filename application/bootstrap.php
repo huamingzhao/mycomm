@@ -269,6 +269,7 @@ Route::set ( 'regularscript', 'regularscript(/<action>)' )->defaults ( array (
  * defaults for the URI.
  */
 Route::set ( 'default', '(<controller>(/<action>(/<id>)))' )->defaults ( array (
+		'directory' => 'home',
 		'controller' => 'index',
 		'action' => 'index' 
 ) );
