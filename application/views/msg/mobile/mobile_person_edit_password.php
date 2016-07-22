@@ -1,0 +1,1 @@
+您在<?php echo date("Y-m-d H:i:s")?>修改了一句话平台的登录密码，敬请知晓。(www.yjh.com)

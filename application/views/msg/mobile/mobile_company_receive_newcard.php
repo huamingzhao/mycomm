@@ -1,0 +1,1 @@
+亲爱的<?php echo $companyname?>，您在一句话商机速配网收到1张<?php echo $personname?>递送的名片，速去查看吧！www.yjh.com 【一句话】
