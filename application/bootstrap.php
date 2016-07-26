@@ -142,24 +142,6 @@ Route::set ( 'userlogin', 'userlogin(/<action>)' )->defaults ( array (
 'controller' => 'userlogin',
 'action' => 'index'
 ) );
-/*
- * ==============快速发布路由====================================
- */
-Route::set ( 'quickPublish', 'quick(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'QuickPublish',
-		'controller' => 'basic',
-		'action' => 'index' 
-) );
-Route::set ( 'companyquick', 'company/quick(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'user/Company/QuickPublish',
-		'controller' => 'basic',
-		'action' => 'index' 
-) );
-Route::set ( 'personquick', 'person/quick(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'user/Person/QuickPublish',
-		'controller' => 'basic',
-		'action' => 'index' 
-) );
 
 /*
  * ==============用户中心路由开始==================================== 用户中心，公共部分，注册登录
@@ -170,81 +152,13 @@ Route::set ( 'user', 'member(/<action>)' )->defaults ( array (
 		'action' => 'index' 
 ) );
 
-/*
- * 企业用户中心路由
- */
-Route::set ( 'user/company', 'company/member(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'user/Company',
-		'controller' => 'basic',
-		'action' => 'index' 
-) );
-/*
- * 个人用户中心路由
- */
-Route::set ( 'user/person', 'person/member(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'user/Person',
-		'controller' => 'basic',
-		'action' => 'index' 
-) );
 /* ===================上传图片flash接口============================== */
 Route::set ( 'upload', 'upload(/<action>)' )->defaults ( array (
 		'directory' => 'upload',
 		'controller' => 'upload',
 		'action' => 'index' 
 ) );
-/*
- * ===================用户中心路由结束========================== //*=================== 供外部调用api 开始==============================
- */
 
-Route::set ( 'sapi/user/company', 'sapi/user/company(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'sapi/User/Company',
-		'controller' => 'user',
-		'action' => 'index' 
-) );
-Route::set ( 'sapi/user/personal', 'sapi/user/personal(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'sapi/User/Personal',
-		'controller' => 'user',
-		'action' => 'index' 
-) );
-Route::set ( 'sapi/platform', 'sapi/platform(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'sapi/Platform',
-		'controller' => 'tag',
-		'action' => 'index' 
-) );
-Route::set ( 'sapi', 'sapi(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'sapi',
-		'controller' => 'basic',
-		'action' => 'index' 
-) );
-
-// *=================== 供外部调用api 结束==============================*/
-
-/*
- * =================== 平台路由开始==============================
- */
-Route::set ( 'user/platform', 'platform(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'platform',
-		'controller' => 'index',
-		'action' => 'index' 
-) );
-
-Route::set ( 'news', 'zixun(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'News',
-		'controller' => 'index',
-		'action' => 'index' 
-) );
-
-Route::set ( 'ask', 'ask(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'Ask',
-		'controller' => 'ask',
-		'action' => 'index' 
-) );
-
-Route::set ( 'business', 'business(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'Business',
-		'controller' => 'business',
-		'action' => 'index'
-) );
 /*
  * =================== 平台路由结束============================== /
  */
@@ -272,4 +186,41 @@ Route::set ( 'default', '(<controller>(/<action>(/<id>)))' )->defaults ( array (
 		'directory' => 'home',
 		'controller' => 'index',
 		'action' => 'index' 
+) );
+
+/**
+ *  关于我们页面
+ */
+Route::set ( 'about', 'about(/<controller>(/<action>))' )->defaults ( array (
+	'directory' => 'Home',
+	'controller' => 'about',
+	'action' => 'index'
+) );
+
+
+/**
+ *  联系我们页面
+ */
+Route::set ( 'contact', 'contact(/<controller>(/<action>))' )->defaults ( array (
+	'directory' => 'Home',
+	'controller' => 'contact',
+	'action' => 'index'
+) );
+
+/**
+ *  公司介绍页面
+ */
+Route::set ( 'company', 'company(/<controller>(/<action>))' )->defaults ( array (
+	'directory' => 'Home',
+	'controller' => 'company',
+	'action' => 'index'
+) );
+
+/**
+ *  产品介绍页面
+ */
+Route::set ( 'product', 'product(/<controller>(/<action>))' )->defaults ( array (
+	'directory' => 'Home',
+	'controller' => 'product',
+	'action' => 'index'
 ) );
