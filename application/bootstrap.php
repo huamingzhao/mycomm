@@ -217,10 +217,19 @@ Route::set ( 'company', 'company(/<controller>(/<action>))' )->defaults ( array 
 ) );
 
 /**
- *  产品介绍页面
+ *  产品列表页面
  */
-Route::set ( 'product', 'product(/<controller>(/<action>))' )->defaults ( array (
+Route::set ( 'product_list', 'product(/<controller>(/<action>))' )->defaults ( array (
 	'directory' => 'Home',
 	'controller' => 'product',
-	'action' => 'index'
+	'action' => 'list'
+) );
+
+/**
+ *  产品详情页面
+ */
+Route::set ( 'product_info', 'product(/<controller>(/<action>(/<id>)))' )->defaults ( array (
+	'directory' => 'Home',
+	'controller' => 'product',
+	'action' => 'info'
 ) );
