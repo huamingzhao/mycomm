@@ -37,9 +37,9 @@
                 </div>
             </div>
         </header>
-
-
+        <!-- 内容 -->
         <?php echo $content;?>
+        <!-- end -->
     </div>
 <!--尾部开始-->
     <footer>
@@ -47,22 +47,22 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="widget">
-                        <h5 class="widgetheading">Our Contact</h5>
+                        <h5 class="widgetheading">联系我们</h5>
+                        <!--
                         <address>
-                            <strong>Abovecompany Inc</strong><br>
-                            JC Main Road, Near Silnile tower<br>
-                            Pin-21542 NewYork US.</address>
+                            <strong>安馨</strong>
+                        </address>-->
                         <p>
-                            <i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
+                            <i class="icon-phone"></i> 15021186361 <br>
                             <i class="icon-envelope-alt"></i> email@domainname.com
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="widget">
-                        <h5 class="widgetheading">Quick Links</h5>
+                        <h5 class="widgetheading">友情链接</h5>
                         <ul class="link-list">
-                            <li><a href="#">Latest Events</a></li>
+                            <li><a href="#">安馨</a></li>
                             <li><a href="#">Terms and conditions</a></li>
                             <li><a href="#">Privacy policy</a></li>
                             <li><a href="#">Career</a></li>
@@ -70,6 +70,7 @@
                         </ul>
                     </div>
                 </div>
+                <!--
                 <div class="col-lg-3">
                     <div class="widget">
                         <h5 class="widgetheading">Latest posts</h5>
@@ -80,13 +81,14 @@
                         </ul>
                     </div>
                 </div>
+                -->
                 <div class="col-lg-3">
                     <div class="widget">
-                        <h5 class="widgetheading">Recent News</h5>
+                        <h5 class="widgetheading">最新产品</h5>
                         <ul class="link-list">
-                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                            <li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-                            <li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
+                            <li><a href="#">产品一</a></li>
+                            <li><a href="#">产品二</a></li>
+                            <li><a href="#">产品三</a></li>
                         </ul>
                     </div>
                 </div>

@@ -13,6 +13,27 @@ class Controller_Home_Product extends Controller_Template
     public function action_list()
     {
         $content= View::factory("home/productList");
+        $list = array(
+            array(
+                'url_name' => 'jy',
+                'pro_name' => 'jy产品一',
+                'pro_url'  => '/'
+            ),
+            array(
+                'url_name' => 'nj',
+                'pro_name' => 'ng产品二',
+                'pro_url'  => '/'
+            ),
+            array(
+                'url_name' => 'xm',
+                'pro_name' => 'xm产品三',
+                'pro_url'  => '/'
+            ),
+        );
+        $content->list = $list;
+
+
+
         $this->template->page = 'product';
         $this->template->title = mb_convert_encoding('一句话创业资讯_专注创业指导_一句话商机速配网创业资讯',"utf-8");
         $this->template->description = mb_convert_encoding('一句话创业资讯频道是最专业的创业指导平台，在1句话资讯平台上你可以学习如何找项目创业、如何投资项目、如何创业，并可以了解别人的创业历程及创业投资中遇到的问题及处理方法。',"utf-8");

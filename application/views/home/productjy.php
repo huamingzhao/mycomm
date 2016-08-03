@@ -1,5 +1,5 @@
-<table id="__01" width="660" height="7684" border="0" cellpadding="0" cellspacing="0" style="text-align:center;">
-    <tr>
+<table id="__01" width="660" height="5842" border="0" cellpadding="0" cellspacing="0" style="text-align:center;margin:0 auto;">
+<tr>
         <td>
             <img src="/images/jyimages/01.jpg" width="660" height="816" alt=""></td>
     </tr>
@@ -30,13 +30,5 @@
     <tr>
         <td>
             <img src="/images/jyimages/08.jpg" width="660" height="448" alt=""></td>
-    </tr>
-    <tr>
-        <td>
-            <img src="/images/jyimages/09.jpg" width="660" height="421" alt=""></td>
-    </tr>
-    <tr>
-        <td style="text-align:center;">
-            <img src="/images/jyimages/10.jpg" width="660" height="362" alt=""></td>
     </tr>
 </table>

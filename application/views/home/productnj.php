@@ -1,4 +1,4 @@
-<table id="__01" width="660" height="5842" border="0" cellpadding="0" cellspacing="0">
+<table id="__01" width="660" height="5842" border="0" cellpadding="0" cellspacing="0" style="text-align:center;margin:0 auto;">
     <tr>
         <td>
             <img src="/images/njimages/01.jpg" width="660" height="541" alt=""></td>

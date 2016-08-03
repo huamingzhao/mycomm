@@ -1,38 +1,4 @@
-
-
-    <!-- end header -->
-    <section id="featured">
-        <!-- Slider -->
-        <div id="main-slider" class="flexslider">
-            <ul class="slides">
-                <li>
-                    <img src="/images/slides/1.jpg" alt="" />
-                    <div class="flex-caption">
-                        <div class="item_introtext">
-                            <strong>Online Education</strong>
-                            <p>The best educational template</p> </div>
-                    </div>
-                </li>
-                <li>
-                    <img src="/images/slides/2.jpg" alt="" />
-                    <div class="flex-caption">
-                        <div class="item_introtext">
-                            <strong>School Education</strong>
-                            <p>Get all courses with on-line content</p> </div>
-                    </div>
-                </li>
-                <li>
-                    <img src="/images/slides/3.jpg" alt="" />
-                    <div class="flex-caption">
-                        <div class="item_introtext">
-                            <strong>Collage Education</strong>
-                            <p>Awesome Template get it know</p> </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <!-- end slider -->
-    </section>
+<div>
     <section class="callaction">
         <div class="container">
             <div class="row">

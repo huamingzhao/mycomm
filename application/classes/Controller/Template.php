@@ -19,8 +19,7 @@ abstract class Controller_Template extends Controller{
     {
 
         parent::before();
-        //echo ;
-        //$path = $this->request->directory().'/'.$this->request->controller().'/'.$this->request->action();
+
         $path = $_SERVER['REQUEST_URI'];
         $path = strtolower($path);
         $get = $this->request->query();
