@@ -27,7 +27,7 @@
                     <div class="skill-home-solid clearfix">
 
                         <?php foreach ($list as $key => $pro_info):?>
-                        <div class="col-md-3 text-center">
+                        <div class="col-md-3 text-center" style="margin-left:60px;">
                             <span class="icons c<?php echo $key+1;?>">
                                 <a href="/product/info?id=<?php echo $pro_info['url_name']?>">
                                     <img src="<?php echo $pro_info['image_url']?>" style="height:100px;width:100px"/>

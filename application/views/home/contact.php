@@ -1,5 +1,4 @@
 <div>
-    <!--
     <section class="callaction">
         <div class="container">
             <div class="row">
@@ -7,13 +6,12 @@
                     <div class="aligncenter">
                         <h1 class="aligncenter">联系我们</h1>
                         <span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
-                        联系我们详细信息
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    -->
     <section id="content">
 
 
