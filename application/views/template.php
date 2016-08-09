@@ -30,7 +30,7 @@
                             <li <?php if($page == 'index') : echo 'class="active"'; endif;?>><a href="/">首页</a></li>
                             <li <?php if($page == 'company') : echo 'class="active"'; endif;?>><a href="/company/index">公司介绍</a></li>
                             <li <?php if($page == 'product') : echo 'class="active"'; endif;?>><a href="/product/list">产品介绍</a></li>
-                            <li <?php if($page == 'about') : echo 'class="active"'; endif;?>><a href="/about/index">关于我们</a></li>
+                            <li <?php if($page == 'about') : echo 'class="active"'; endif;?>><a href="/about/index">加盟代理</a></li>
                             <li <?php if($page == 'contact') : echo 'class="active"'; endif;?>><a href="/contact/index">联系我们</a></li>
                         </ul>
                     </div>
@@ -63,10 +63,6 @@
                         <h5 class="widgetheading">友情链接</h5>
                         <ul class="link-list">
                             <li><a href="#">安馨</a></li>
-                            <li><a href="#">Terms and conditions</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Career</a></li>
-                            <li><a href="#">Contact us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -104,6 +100,7 @@
                             </p>
                         </div>
                     </div>
+                    <!--
                     <div class="col-lg-6">
                         <ul class="social-network">
                             <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -113,6 +110,7 @@
                             <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
+                    -->
                 </div>
             </div>
         </div>

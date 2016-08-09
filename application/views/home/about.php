@@ -7,15 +7,15 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="aligncenter">
-                        <h1 class="aligncenter">关于我们</h1>
+                        <h1 class="aligncenter">加盟代理</h1>
                         <span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
-                        关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于
-                        我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们
+                        加盟支持：
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--
     <div class="testimonial-area">
         <div class="testimonial-solid">
             <div class="container">
@@ -69,7 +69,6 @@
             </div>
         </div>
     </div>
-
-</div>
+    -->
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 

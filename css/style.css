@@ -1,4 +1,4 @@
-@import url('font-awesome.css');  
+@import url('font-awesome.css');
 @import url('animate.css');
 
 body {
@@ -828,8 +828,10 @@ ul.portfolio-categ li a{
 	color: #14A085;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #D7D8D6;
-background-color: #EAEAEA;
+
+border: 1px solid #D7D8D6;
+
+background-color: #EAEAEA;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
@@ -1052,13 +1054,15 @@ footer .widget .social-network {
 
 }
 .box-area{
-border: 1px solid #F3F3F3;
-padding: 0 15px 12px;
-padding-top: 41px;
-margin-top: -42px;
-text-align: left;
-background-color: #F9F9F9;
-position: relative;}
+    border: 1px solid #F3F3F3;
+    padding: 0 15px 12px;
+    padding-top: 41px;
+    margin-top: -42px;
+    text-align: left;
+    height:240px;
+    background-color: #F9F9F9;
+    position: relative;
+}
 /* --- Map --- */
 .map{
 	position:relative;
