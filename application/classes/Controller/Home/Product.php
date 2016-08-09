@@ -17,17 +17,17 @@ class Controller_Home_Product extends Controller_Template
             array(
                 'url_name' => 'jy',
                 'pro_name' => 'jy产品一',
-                'pro_url'  => '/'
+                'image_url'  => '/images/jyimages/01.jpg'
             ),
             array(
                 'url_name' => 'nj',
                 'pro_name' => 'ng产品二',
-                'pro_url'  => '/'
+                'image_url'  => '/images/njimages/01.jpg'
             ),
             array(
                 'url_name' => 'xm',
                 'pro_name' => 'xm产品三',
-                'pro_url'  => '/'
+                'image_url'  => '/images/hssimages/01.jpg'
             ),
         );
         $content->list = $list;

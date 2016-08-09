@@ -28,7 +28,7 @@
                     <div class="navbar-collapse collapse ">
                         <ul class="nav navbar-nav">
                             <li <?php if($page == 'index') : echo 'class="active"'; endif;?>><a href="/">首页</a></li>
-                            <li <?php if($page == 'company') : echo 'class="active"'; endif;?>><a href="/company/index">公司介绍</a></li>
+                            <!--<li <?php if($page == 'company') : echo 'class="active"'; endif;?>><a href="/company/index">公司介绍</a></li>-->
                             <li <?php if($page == 'product') : echo 'class="active"'; endif;?>><a href="/product/list">产品介绍</a></li>
                             <li <?php if($page == 'about') : echo 'class="active"'; endif;?>><a href="/about/index">加盟代理</a></li>
                             <li <?php if($page == 'contact') : echo 'class="active"'; endif;?>><a href="/contact/index">联系我们</a></li>
