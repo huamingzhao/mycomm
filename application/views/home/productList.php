@@ -29,12 +29,12 @@
                         <?php foreach ($list as $key => $pro_info):?>
                         <div class="col-md-3 text-center" style="margin-left:60px;">
                             <span class="icons c<?php echo $key+1;?>">
-                                <a href="/product/info?id=<?php echo $pro_info['url_name']?>">
+                                <a href="/<?php echo $pro_info['url_name']?>.html">
                                     <img src="<?php echo $pro_info['image_url']?>" style="height:100px;width:100px"/>
                                 </a>
                             </span>
                             <div class="box-area">
-                                <a href="/product/info?id=<?php echo $pro_info['url_name']?>">
+                                <a href="/<?php echo $pro_info['url_name']?>.html">
                                     <h3><?php echo $pro_info['pro_name'];?></h3>
                                     <p>安馨美到底，中国护理龙头</p>
                                 </a>
