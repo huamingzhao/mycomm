@@ -16,17 +16,17 @@ class Controller_Home_Product extends Controller_Template
         $list = array(
             array(
                 'url_name' => 'jy',
-                'pro_name' => 'jy产品一',
+                'pro_name' => '精油',
                 'image_url'  => '/images/jyimages/01.jpg'
             ),
             array(
                 'url_name' => 'nj',
-                'pro_name' => 'ng产品二',
+                'pro_name' => '凝胶',
                 'image_url'  => '/images/njimages/01.jpg'
             ),
             array(
                 'url_name' => 'xm',
-                'pro_name' => 'xm产品三',
+                'pro_name' => '胸膜',
                 'image_url'  => '/images/hssimages/01.jpg'
             ),
         );
@@ -39,6 +39,7 @@ class Controller_Home_Product extends Controller_Template
         $this->template->description = mb_convert_encoding('一句话创业资讯频道是最专业的创业指导平台，在1句话资讯平台上你可以学习如何找项目创业、如何投资项目、如何创业，并可以了解别人的创业历程及创业投资中遇到的问题及处理方法。',"utf-8");
         $this->template->keywords = mb_convert_encoding('一句话创业资讯,一句话学开店,创业指导,创业资讯,加盟资讯',"utf-8");
         $this->template->content = $content;
+        file_put_contents('pro_list.html',$this->template);
     }
 
     /**
@@ -46,16 +47,16 @@ class Controller_Home_Product extends Controller_Template
      */
     public function action_info()
     {
-        $id = Arr::get($this->request->query(), 'id', 0);
-        if (!in_array($id, array('jy','nj','xm'))) {
-            echo 'error';exit;
+        $arr = array('jy','nj','xm');
+        foreach ($arr as $id) {
+            $content= View::factory("home/product".$id);
+            $this->template->page = 'product';
+            $this->template->title = mb_convert_encoding('一句话创业资讯_专注创业指导_一句话商机速配网创业资讯',"utf-8");
+            $this->template->description = mb_convert_encoding('一句话创业资讯频道是最专业的创业指导平台，在1句话资讯平台上你可以学习如何找项目创业、如何投资项目、如何创业，并可以了解别人的创业历程及创业投资中遇到的问题及处理方法。',"utf-8");
+            $this->template->keywords = mb_convert_encoding('一句话创业资讯,一句话学开店,创业指导,创业资讯,加盟资讯',"utf-8");
+            $this->template->content = $content;
+            file_put_contents($id .'.html',$this->template);
         }
-        $content= View::factory("home/product".$id);
-        $this->template->page = 'product';
-        $this->template->title = mb_convert_encoding('一句话创业资讯_专注创业指导_一句话商机速配网创业资讯',"utf-8");
-        $this->template->description = mb_convert_encoding('一句话创业资讯频道是最专业的创业指导平台，在1句话资讯平台上你可以学习如何找项目创业、如何投资项目、如何创业，并可以了解别人的创业历程及创业投资中遇到的问题及处理方法。',"utf-8");
-        $this->template->keywords = mb_convert_encoding('一句话创业资讯,一句话学开店,创业指导,创业资讯,加盟资讯',"utf-8");
-        $this->template->content = $content;
     }
 
 }

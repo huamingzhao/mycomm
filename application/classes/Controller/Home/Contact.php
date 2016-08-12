@@ -15,6 +15,7 @@ class Controller_Home_Contact extends Controller_Template{
         $this->template->description = mb_convert_encoding('一句话创业资讯频道是最专业的创业指导平台，在1句话资讯平台上你可以学习如何找项目创业、如何投资项目、如何创业，并可以了解别人的创业历程及创业投资中遇到的问题及处理方法。',"utf-8");
         $this->template->keywords = mb_convert_encoding('一句话创业资讯,一句话学开店,创业指导,创业资讯,加盟资讯',"utf-8");
         $this->template->content = $content;
+        file_put_contents('contact.html',$this->template);
     }
 
 }

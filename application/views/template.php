@@ -27,11 +27,11 @@
                     </div>
                     <div class="navbar-collapse collapse ">
                         <ul class="nav navbar-nav">
-                            <li <?php if($page == 'index') : echo 'class="active"'; endif;?>><a href="/">首页</a></li>
+                            <li <?php if($page == 'index') : echo 'class="active"'; endif;?>><a href="/index.html">首页</a></li>
                             <!--<li <?php if($page == 'company') : echo 'class="active"'; endif;?>><a href="/company/index">公司介绍</a></li>-->
-                            <li <?php if($page == 'product') : echo 'class="active"'; endif;?>><a href="/product/list">产品介绍</a></li>
-                            <li <?php if($page == 'about') : echo 'class="active"'; endif;?>><a href="/about/index">加盟代理</a></li>
-                            <li <?php if($page == 'contact') : echo 'class="active"'; endif;?>><a href="/contact/index">联系我们</a></li>
+                            <li <?php if($page == 'product') : echo 'class="active"'; endif;?>><a href="/pro_list.html">产品介绍</a></li>
+                            <li <?php if($page == 'about') : echo 'class="active"'; endif;?>><a href="/about.html">加盟代理</a></li>
+                            <li <?php if($page == 'contact') : echo 'class="active"'; endif;?>><a href="/contact.html">联系我们</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,9 +82,9 @@
                     <div class="widget">
                         <h5 class="widgetheading">最新产品</h5>
                         <ul class="link-list">
-                            <li><a href="#">产品一</a></li>
-                            <li><a href="#">产品二</a></li>
-                            <li><a href="#">产品三</a></li>
+                            <li><a href="/jy.html">精油</a></li>
+                            <li><a href="/nj.html">凝胶</a></li>
+                            <li><a href="/xm.html">胸膜</a></li>
                         </ul>
                     </div>
                 </div>

@@ -15,6 +15,7 @@ class Controller_Home_About extends Controller_Template{
         $this->template->description = mb_convert_encoding('关于我们页面',"utf-8");
         $this->template->keywords = mb_convert_encoding('关于我们',"utf-8");
         $this->template->content = $content;
+        file_put_contents('about.html',$this->template);
     }
 
 }
