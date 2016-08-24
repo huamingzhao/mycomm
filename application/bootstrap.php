@@ -135,15 +135,6 @@ Kohana::modules ( array (
 ) );
 
 /*
- * sso登录跳转
-*/
-Route::set ( 'userlogin', 'userlogin(/<action>)' )->defaults ( array (
-'directory' => 'user',
-'controller' => 'userlogin',
-'action' => 'index'
-) );
-
-/*
  * ==============用户中心路由开始==================================== 用户中心，公共部分，注册登录
  */
 Route::set ( 'user', 'member(/<action>)' )->defaults ( array (
@@ -163,9 +154,9 @@ Route::set ( 'upload', 'upload(/<action>)' )->defaults ( array (
  * =================== 平台路由结束============================== /
  */
 /*=================== 后台路由开始==============================*/
-Route::set ( 'cms', 'cms(/<controller>(/<action>))' )->defaults ( array (
-		'directory' => 'cms',
-		'controller' => 'admin',
+Route::set ( 'anxin', 'cms(/<controller>(/<action>))' )->defaults ( array (
+		'directory' => 'admin',
+		'controller' => 'index',
 		'action' => 'index' 
 ) );
 /* =================== 后台路由结束============================== */

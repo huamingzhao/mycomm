@@ -18,14 +18,13 @@ return array
              *
              * Ports and sockets may be appended to the hostname.
              */
-            'hostname'   => '10.23.50.232',
-            //'hostname'   => '192.168.1.62',
-            'database'   => 'lnvestment_platform',
-            'username'   => 'yijuhua',
-            'password'   => '123yijuhua',
+            'hostname'   => 'anxinmeidaodi.gotoftp4.com',
+            'database'   => 'anxinmeidaodi',
+            'username'   => 'anxinmeidaodi',
+            'password'   => 'zaq1xsw2',
             'persistent' => FALSE,
         ),
-        'table_prefix' => 'czzs_',
+        'table_prefix' => 'anxin_',
         'charset'      => 'utf8',
         'caching'      => FALSE,
     ),
